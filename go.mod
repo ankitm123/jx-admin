@@ -2,16 +2,16 @@ module github.com/jenkins-x-plugins/jx-admin
 
 require (
 	github.com/cpuguy83/go-md2man v1.0.10
-	github.com/jenkins-x/go-scm v1.15.28
+	github.com/jenkins-x/go-scm v1.15.31
 	github.com/jenkins-x/jx-api/v4 v4.8.6
-	github.com/jenkins-x/jx-helpers/v3 v3.10.5
+	github.com/jenkins-x/jx-helpers/v3 v3.11.3
 	github.com/jenkins-x/jx-kube-client/v3 v3.0.11
 	github.com/jenkins-x/jx-logging/v3 v3.1.6
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/pflag v1.0.10
 	github.com/stretchr/testify v1.11.1
 	k8s.io/api v0.36.1
-	k8s.io/apimachinery v0.36.1
+	k8s.io/apimachinery v0.36.2
 	k8s.io/client-go v0.36.1
 )
 
@@ -104,7 +104,7 @@ require (
 	k8s.io/apiextensions-apiserver v0.36.1 // indirect
 	k8s.io/klog/v2 v2.140.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20260603220949-865597e52e25 // indirect
-	k8s.io/streaming v0.36.1 // indirect
+	k8s.io/streaming v0.36.2 // indirect
 	k8s.io/utils v0.0.0-20260507154919-ff6756f316d2 // indirect
 	sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730 // indirect
 	sigs.k8s.io/randfill v1.0.0 // indirect

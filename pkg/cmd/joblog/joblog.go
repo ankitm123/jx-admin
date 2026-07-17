@@ -4,12 +4,13 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/jenkins-x-plugins/jx-admin/pkg/common"
 	"io"
 	"os"
 	"sort"
 	"strings"
 	"time"
+
+	"github.com/jenkins-x-plugins/jx-admin/pkg/common"
 
 	"github.com/jenkins-x-plugins/jx-admin/pkg/bootjobs"
 	"github.com/jenkins-x/jx-helpers/v3/pkg/cobras/helper"
@@ -158,7 +159,7 @@ func (o *Options) waitForGitOperator(client kubernetes.Interface, ns, selector s
 
 Are you sure you have installed the git operator?
 
-See: https://jenkins-x.io/docs/v3/guides/operator/
+See: https://jayex.io/v3/admin/setup/operator/
 
 `)
 		return fmt.Errorf("no git operator pod to be ready in namespace %s with selector %s: %w", ns, o.GitOperatorSelector, err)

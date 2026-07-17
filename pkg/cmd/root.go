@@ -21,7 +21,7 @@ func Main() *cobra.Command {
 		Annotations: map[string]string{
 			cobra.CommandDisplayNameAnnotation: common.TopLevelCommand,
 		},
-		Short: "commands for creating and upgrading Jenkins X environments using GitOps",
+		Short: "commands for creating and upgrading JayeX environments using GitOps",
 		Run: func(cmd *cobra.Command, args []string) {
 			err := cmd.Help()
 			if err != nil {
