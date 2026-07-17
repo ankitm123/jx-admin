@@ -24,7 +24,7 @@ import (
 
 var (
 	createLong = templates.LongDesc(`
-		Creates a new git repository for a new Jenkins X installation
+		Creates a new git repository for a new JayeX installation
 `)
 
 	createExample = templates.Examples(`
@@ -71,7 +71,7 @@ func NewCmdCreate() (*cobra.Command, *Options) {
 
 	cmd := &cobra.Command{
 		Use:     "create",
-		Short:   "Creates a new git repository for a new Jenkins X installation",
+		Short:   "Creates a new git repository for a new JayeX installation",
 		Long:    createLong,
 		Example: fmt.Sprintf(createExample, common.BinaryName),
 		Run: func(cmd *cobra.Command, args []string) {

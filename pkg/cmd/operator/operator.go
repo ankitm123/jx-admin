@@ -170,7 +170,7 @@ func (o *Options) Run() error {
 	h := o.Helmer
 	_, err = helmer.AddHelmRepoIfMissing(h, helmer.JX3ChartRepository, "jxgh", "", "")
 	if err != nil {
-		return fmt.Errorf("failed to add Jenkins X github chart repository: %w", err)
+		return fmt.Errorf("failed to add JayeX github chart repository: %w", err)
 	}
 	log.Logger().Debugf("updating helm repositories")
 	err = h.UpdateRepo()
@@ -220,7 +220,7 @@ func (o *Options) Run() error {
 	o.JobLogOptions.WaitMode = true
 	err = o.JobLogOptions.Run()
 	if err != nil {
-		return fmt.Errorf("failed to tail the Jenkins X boot Job pods: %w", err)
+		return fmt.Errorf("failed to tail the JayeX boot Job pods: %w", err)
 	}
 	return nil
 }
@@ -379,7 +379,7 @@ func (o *Options) switchNamespace(ns string) error {
 	if err != nil {
 		return fmt.Errorf("failed to update the kube config to namepace %s: %w", ns, err)
 	}
-	log.Logger().Infof("switched to namespace %s so that you can start to create or import projects into Jenkins X: https://jenkins-x.io/docs/v3/create-project/", termcolor.ColorInfo(ns))
+	log.Logger().Infof("switched to namespace %s so that you can start to create or import projects into JayeX: https://jayex.io/v3/develop/create-project/", termcolor.ColorInfo(ns))
 	return nil
 }
 

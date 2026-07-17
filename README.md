@@ -6,7 +6,7 @@
 [![LICENSE](https://img.shields.io/github/license/jenkins-x-labs/helmboot.svg)](https://github.com/jenkins-x-plugins/jx-admin/blob/master/LICENSE)
 [![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://slack.k8s.io/)
 
-`jx-admin` is a command line tool for System Administrators to setup/install/upgrade kubernetes clusters using [Jenkins X](https://jenkins-x.io/) via GitOps and immutable infrastructure.
+`jx-admin` is a command line tool for System Administrators to setup/install/upgrade kubernetes clusters using [JayeX](https://jayex.io/) via GitOps and immutable infrastructure.
 
 `jx-admin`  is based on [helm 3.x](https://helm.sh/) 
 
@@ -16,4 +16,4 @@ See the [jx-admin command reference](https://github.com/jenkins-x-plugins/jx-adm
 
 ## Using jx admin
 
-See the [Getting started guide](https://jenkins-x.io/v3/admin/guides/jx3/) for details
+See the [Getting started guide](https://jayex.io/v3/admin/guides/jx3/) for details
